@@ -93,7 +93,7 @@ class ViewController1: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     //Con este metodo se muestra en la segunda pantalla el icono que ha quedado seleccionado en la primera
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        if (segue.identifier=="Detalle" && Marca.text==" ") {
-         alerta(titulo: "Error de seleccion", mensaje: "Por favor, seleccione una marca valida para poder pasar a la selección de modelos")
+         alerta(titulo: "Error de selección", mensaje: "Por favor, seleccione una marca valida para poder pasar a la selección de modelos.")
         }
        else{
         let destino = segue.destination as! ViewController2
