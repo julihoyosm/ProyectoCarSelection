@@ -36,20 +36,20 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         rol3.dataSource=self
         
         if (info1 == "RS3"){
-            motor = "- Motor de combustión: Gasolina \n\n - Cinco cilindradas \n\n - Velocidad máxima (km/h): 250 \n\n- Aceleración 0-100 km/h (s): 43"
-            interior = "- Abrepuertas interior iluminado \n\n- Asientos delanteros con ajuste lumbar eléctrico: 310 € \n\n- Asientos delanteros con calefacción: 420 €\n\n- Asientos delanteros con regulación en altura: De serie\n\n- Asientos delanteros deportivos: De serie"
+            motor = "Gracias al motor TFSI de cinco cilindros con 294 kW (400 CV) y 480 Nm de par máximo, el Audi RS 3 Sportback acelera de 0 a 100 km/h en solo 4,1 segundos. El Audi RS 3 Sportback hace una demostración de fuerza con la parrilla Audi Singleframe con acabado en color negro brillante y en forma de panal, las amplias entradas de aire y las taloneras con un diseño más anguloso."
+            interior = "-En el umbral de las puertas se encuentra iluminado el anagrama RS 3. Los asientos deportivos en piel Nappa Fina de color negro con el logotipo RS se incluyen de serie y opcionalmente pueden sustituirse por asientos deportivos RS con reposacabezas integrados. El paquete de diseño RS ofrece una opción aún más deportiva: los contrastes en rojo que acentúan el interior, por ejemplo en los revestimientos de las puertas, las esterillas y los cinturones de seguridad. El volante multifuncional RS se encarga de que el conductor lo tenga todo bajo control. El cuadro de instrumentos Audi virtual cockpit completamente digital muestra en la pantalla de 31,2 cm (12,3”) toda la información. Si lo desea, se muestra una pantalla exclusiva RS con el cuentarrevoluciones en el centro."
             precio =  59800
             imagenFondo.image = UIImage(named: "A-RS3I.jpg")
-            conf = "http://www.apple.es"//"http://www.audi.es/es/web/es/modelos/a3/audi-rs3-sedan.html"
+            conf = "https://www.audi.es/es/web/es/modelos/a3/audi-rs3-sportback.html"
             
         }
         else if (info1 == "RS5" ){
-            motor = "Su motor es el nuevo 2.9 TFSI biturbo, que entrega: 331 kW (450 CV) y 600 Nm de par con tracción quatro de serie que distribuye la fuerza entre las cuatro ruedas.\n\n- Potencia máxima (kW) / CV 331 kW (450 CV) \n\n- Aceleración de 0-100 km/h 3,9 segundos \n\n- Par máximo Nm / rpm 600/1.900 hasta 5.000 Nm a min -1 \n\n- Velocidad máxima: 250 km/h, opcional 280 km/h \n\n- Tipo de tracción: Permanente a las cuatro ruedas quattro \n\n- Transmisión: Tiptronic de 8 velocidades \n\n- Consumo medio 8,7 l/100 km \n\n- Emisiones combinadas de CO2 197 g/km"
-            interior = "En el interior, un acabado en tonos oscuros y los umbrales de las puertas iluminados con los logotipos RS 5 de serie dan la bienvenida al conductor y a los pasajeros. \n\nLos asientos deportivos tapizados en napa fina con el logotipo RS en los respaldos forman parte del equipamiento de serie. \nOpcionalmente están disponibles los asientos deportivos RS con reposacabezas integrados, con tapicería perforada y dibujo en forma de diamante. \n\nEl volante deportivo RS forrado en piel está achatado en su parte inferior. \n\nLa atmósfera de elegante deportividad se completa con las inserciones en el salpicadero y en las puertas."
+            motor = "El nuevo Audi RS 5 Coupé es el gran turismo de la familia RS de Audi Sport. El Coupé de altas prestaciones combina un diseño elegante con unas cualidades que lo hacen muy utilizable en el día a día. Es el primer modelo de Audi Sport que incorpora el nuevo lenguaje de diseño RS. Su motor es el nuevo 2.9 TFSI biturbo, que entrega 331 kW (450 CV) y 600 Nm de par con tracción quattro de serie que distribuye la fuerza entre las cuatro ruedas."
+            interior = "Teñido de color negro, el interior del nuevo RS 5 Coupé resulta extremadamente exclusivo y deportivo. Detalles como los asientos RS tapizados en cuero Nappa Fina con costuras de trama de diamante y el volante multifunción RS con la parte inferior achatada, ponen de relieve el carácter del coupé de altas prestaciones también en su interior. Los logos RS aparecen, además de en los asientos y el volante, en los umbrales de las puertas y en el selector del cambio. Una función específica en el Audi virtual cockpit proporciona información sobre la presión de los neumáticos, el par motor y las fuerzas G. Una luz de cambio le indica al conductor que cambie de marcha al alcanzar el límite de revoluciones. El paquete de diseño RS utiliza el rojo como tonalidad de contraste. Los elementos más destacados que incorpora son el volante, la palanca selectora, la zona destinada a las rodillas, los cinturones de seguridad y las alfombrillas, todos ellos con un toque en ese color. Audi Sport ofrece el verde Sonoma metalizado de manera exclusiva en el RS 5 Coupé. Además, una amplia gama de opciones de infotainment ofrece todo tipo de posibilidades a los pasajeros."
             
             precio = 100990
             imagenFondo.image = UIImage(named: "A-RS5I.jpg")
-            conf = "http://www.audi.es/es/web/es/modelos/a5/rs-5-coupe.html"
+            conf = "https://www.audi.es/es/web/es/modelos/a5/rs-5-coupe.html"
             
         }
         else if (info1 == "RS7" ){
@@ -61,7 +61,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             
         }
         else if (info1 == "R8"){
-            // desc = "Este coche destaca por su impresionante rendimiento. \nEl exterior cuenta con partes de carbono y con el sorprendente alerón trasero que merece una mención especial. \nTodo ello consigue que aumente la carga aerodinámica en el eje trasero y muestre una impresión de atletismo en general."
+            
             motor = "3,2 segundos es todo lo que necesita para convertir una primera impresión en una realidad. \n\nEl motor 5.2 FSI está disponible en dos versiones: una con 397 kW (540 CV) y otra con unos deportivos 449 kW (610 CV). \n\nEl sonido del motor V10 aspirado, cuyo par motor máximo está disponible a 6.500 rpm, es ahora aún más profundo e intenso."
             interior = "En el nuevo Audi virtual cockpit, las pantallas son digitales. \nLos controles más importantes se agrupan juntos en grupos de botones situados en el volante, también conocidos como satélites. \n\nEn el interior, el conductor tiene la impresión de estar sentado en un vehículo de competición. \n\n- Los controles del aire acondicionado subrayan la simplicidad del cuadro de mandos con su efecto flotante.\n\n- MMI Navegación plus con MMI touch de serie."
             precio = 194720
@@ -71,9 +71,9 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         else if (info1 == "M2"){
             motor = "El tamaño no es decisivo, sino la fuerza.\n\nEl compacto motor de 6 cilindros en línea M del BMW M2 Coupé es la prueba definitiva. Este motor de 272 kW (370 CV) impulsa el vehículo de 1.485 kg sin esfuerzo hasta una velocidad máxima de hasta 250 km/h, ofreciendo una relación peso/potencia de 4,19 kg/CV. \n\nLas prestaciones elevadas y el sistema de refrigeración, probado en el circuito, aseguran una experiencia de conducción única."
             interior = "El interior del BMW M2 Coupé da la bienvenida al conductor y al acompañante con sus asientos deportivos en cuero ‘Dakota’ Schwarz. \n\nTodos los asientos incluyen el logotipo M grabado debajo de los reposacabezas así como costura de contraste en Blau. \n\nLos mandos están sistemáticamente orientados al conductor, garantizándose un acceso rápido y preciso a las principales funciones. \n\nLas molduras interiores de carbono de poro abierto, el volante M de cuero y las dos esferas circulares con agujas rojas realzan la naturaleza deportiva del vehículo. \n\nNumerosas aplicaciones, como el guarnecido interior del techo BMW Individual Anthrazit, mejoran aún más su aspecto llamativo."
-            precio = 62900
+            precio = 75450
             imagenFondo.image = UIImage(named: "B-M2I.jpg")
-            conf = "https://www.bmw.es/vc/ncc/xhtml/start/startWithConfigUrl.faces?country=ES&market=ESPT&productType=1&brand=BM&locale=es_ES&name=x5p5s2r1#MODEL_ENGINE"
+            conf = "https://configure.bmw.es/es_ES/configure/F87/2U71/S01CA,S01CB,S01DE,S0230,S0249,S02PA,S02QT,S02VB,S02VC,S0302,S0423,S0430,S0431,S0481,S0493,S0494,S04GQ,S04LU,S0508,S0521,S0534,S0544,S0548,S0552,S0563,S05AC,S05DA,S0609,S0698,S06AC,S06AE,S06AK,S06AP,S0760,S07CG,S07M9,S07ME,S0856,S0883,S08KA,S08R9,S08S3"
             
         }
         else if (info1 == "M3"){
@@ -86,9 +86,9 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         else if (info1 == "M4"){
             motor = "- Cilindros/válvulas: 6/4\n\n- Cilindrada (cm3): 2979\n\n- Diámetro/carrera (mm): 89,6/84,0\n\n- Potencia máxima en KW (CV) a 1/min rev: 317 (431)/5500-7300\n\n- Par máximo en Nm a 1/min rev: 550/1850-5500\n\n- Ratio de compresión 1 : 10,2:1"
             interior = "En el interior del coche, los asientos M de diseño con su forma envolvente y el logotipo M iluminado esperan al conductor y al acompañante.\n\nOfrecen una estabilidad lateral perfecta y, gracias al empleo inteligente de la ergonomía, mantienen una conexión directa entre el conductor y el vehículo.\n\nTodos los elementos de mando del puesto de conducción están orientados al conductor y garantizan un control de gran precisión en una fracción de segundo.\n\nUn cuadro de instrumentos redondos de aspecto deportivo, el volante M de cuero y la palanca de cambio M completan el paquete y no dejan lugar a dudas. \n\nEl BMW M4 Coupé se creó para redefinir los límites."
-            precio = 92900
+            precio = 96550
             imagenFondo.image = UIImage(named: "B-M4I.jpg")
-            conf = "https://www.bmw.es/vc/ncc/xhtml/start/startWithConfigUrl.faces?country=ES&market=ESPT&productType=1&brand=BM&locale=es_ES&name=r0s8q5k2#MODEL_ENGINE"
+            conf = "https://configure.bmw.es/es_ES/configure/F82/4Y91/S01CA,S01DE,S0230,S02MK,S02PA,S02PN,S02VB,S02VC,S0302,S0322,S03AG,S0423,S0430,S0431,S0459,S0488,S0490,S0493,S04AE,S04WH,S0502,S0508,S0521,S0534,S0544,S0548,S0552,S0563,S0575,S05AC,S05DA,S0609,S0610,S0698,S06AC,S06AE,S06AK,S06NH,S0775,S07CG,S0856,S0883,S08KA,S08R9,S08S3,S08TH"
         }
         else if (info1 == "M6"){
             motor = "- Cilindros/válvulas: 8/4\n\n- Cilindrada (cm3): 4395\n\n- Diámetro/carrera (mm): 88,3/89,0\n\n- Potencia máxima en KW (CV) a 1/min rev: 412 (560)/6000-7000\n\n- Par máximo en Nm a 1/min rev: 680/1500-5750\n\n- Ratio de compresión 1 : 10,0:1"
@@ -109,34 +109,35 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             interior = "- Su diseño escultural y elementos voluminosos convierten al Mercedes-AMG A 45 en todo un atleta y brindan unas prestaciones al nivel del automovilismo deportivo. \n\n- El faldón delantero en diseño A-Wing envía una clara señal: se trata de un vehículo con ansias innatas por avanzar."
             precio = 58325
             imagenFondo.image = UIImage(named: "M-ClaseAI.jpg")
-            conf = "https://configurator.mercedes-benz.com/configurador/es/es/clase-a/compacto/carconfig?model=1760521&subprocess=CCci&accountID=daimpces"
+            conf = "https://www.mercedes-amg.com/en/vehicles/a-class/hatchback/a35.html"
         }
         else if (info1 == "CLA AMG"){
             motor = "- Por sus venas corre gasolina. Buena prueba de ello da el motor con turbocompresor de 4 cilindros de serie más potente del mundo, con 280 kW[1] (381 CV).\n\n- Su potencia por litro de cilindrada, 141 kW/l (191 CV), supera a la de la mayoría de los superdeportivos.\n\n- Un turbocompresor de doble entrada asegura una respuesta espontánea y máxima agilidad.\n\n- Pone a disposición hasta 475 Nm de par.\n\n- Mercedes-AMG CLA 45 4MATIC: consumo de combustible, ciclo mixto: 7,3-6,9 l/100 km, emisiones de CO2, ciclo mixto: 171–162 g/km"
             interior = "- Un diseño vanguardista que desafía lo establecido. La zaga del Mercedes-AMG CLA 45 Coupé se ha perfeccionado siguiendo el lema «más empuje, menos fuerza ascensional». \n\n- Detalles expresivos como el faldón trasero de nuevo diseño con cuatro perfiles verticales a modo de difusor, perfiles aerodinámicos laterales y salidas de aire estéticas como componentes del paquete aerodinámico dejan patente el dinamismo sin precedentes de este modelo.\n\n- El broche final lo ponen los dos embellecedores cromados en la salida doble de escape y la sonoridad rotunda del equipo de escape deportivo AMG."
             precio = 65125
             imagenFondo.image = UIImage(named: "M-CLAI.jpg")
+            conf = "https://www.mercedes-amg.com/en/vehicles/cla/coupe/cla45.html"
         }
         else if (info1 == "GLA AMG"){
             motor = "- Por sus venas corre gasolina. Buena prueba de ello da el motor con turbocompresor de 4 cilindros de serie más potente del mundo, con 280 kW[1] (381 CV).\n\n- Su potencia por litro de cilindrada, 141 kW/l (191 CV), supera a la de la mayoría de los superdeportivos.\n\n- El turbocompresor Twinscroll es la clave de una respuesta espontánea y máxima agilidad. \n\n- Mercedes-AMG GLA 45 4MATIC: consumo de combustible, ciclo mixto: 7,4 l/100 km, emisiones de CO2, ciclo mixto: 172 g/km"
             interior = "- El Mercedes-AMG GLA 45 presenta un diseño arrebatador. El nuevo perfil aerodinámico y el faldón trasero AMG en efecto difusor reducen las fuerzas ascensionales en el eje trasero y mantienen al vehículo pegado a la calzada.\n\n- Un elemento consolidado en el frontal: la parrilla del radiador AMG con lama doble en cromo plateado y el faldón delantero AMG con perfil A-Wing.\n\n- Amplias entradas para el aire de refrigeración y llamativas lamas en todas las tomas de aire subrayan la presencia dinámica y segura del vehículo. De este modo, este SUV compacto se mueve también con soltura sobre cualquier terreno."
             precio = 71000
             imagenFondo.image = UIImage(named: "M-GLAI.jpg")
-            conf = "https://configurator.mercedes-benz.com/configurador/es/es/cla/coupe/carconfig?model=1173521&subprocess=CCci&accountID=daimpces"
+            conf = "https://www.mercedes-amg.com/en/vehicles/gla/suv/gla45.html"
         }
-        else if (info1 == "C63 AMG"){
+        else if (info1 == "C63 S AMG"){
             motor = "- El diferencial autoblocante con regulación electrónica del Mercedes-AMG C 63 S distribuye hasta 700 Nm[1] al eje trasero, ofreciendo a ambas ruedas de 20 pulgadas una tracción ideal.\n\n- La dirección paramétrica deportiva brinda una respuesta precisa. El resultado: auténtico placer de conducción en cualquier situación.\n\n- Consumo de combustible del Mercedes-AMG C 63 en el ciclo mixto: 11,9–11,4 l/100 km, emisiones de CO2, ciclo mixto: 200 g/km;\n\n- Consumo de combustible del Mercedes-AMG C 63 S en el ciclo mixto: 8,6 l/100 km; emisiones de CO2, ciclo mixto: 200 g/km"
             interior = "- Mucho más que una serie de componentes de altas prestaciones: el Mercedes-AMG C 63 es el resultado de una filosofía de desarrollo de automóviles en la que la forma y la función van de la mano.\n\n- Los guardabarros ensanchados 64 milímetros en el eje delantero y 66 milímetros en el robusto eje trasero dotan al C 63 Coupé de una apariencia aún más deportiva y una mejor estabilidad en carretera.\n\n- Así de elegante puede presentarse la potencia en estado puro"
             precio = 98475
             imagenFondo.image = UIImage(named: "M-C63I.jpg")
-            conf = "https://configurator.mercedes-benz.com/configurador/es/es/clase-c/coupe/carconfig?model=2053861&subprocess=CCci&accountID=daimpces"
+            conf = "https://www.mercedes-amg.com/en/vehicles/c-class/coupe/c63s.html"
         }
-        else if (info1 == "GT AMG"){
+        else if (info1 == "GT R AMG"){
             motor = "- Los parámetros de un auténtico deportista de élite. De 0 a 100 en una cota impresionante de cuatro segundos, y una velocidad máxima de 304 km/h. No hay más que un automóvil capaz de adelantar al Mercedes-AMG GT: el Mercedes-AMG GT S.\n\n- Su datos característicos: 3,8 segundos y una velocidad máxima de 310 km/h. Entusiasmo en un tiempo récord.\n\n- Mercedes-AMG GT: consumo de combustible, ciclo mixto: 9,3 l/100 km, emisiones de CO2, ciclo mixto: 216 g/km\n\n- Mercedes-AMG GT S: consumo de combustible, ciclo mixto: 9,6-9,4 l/100 km, emisiones de CO2, ciclo mixto: 224–219 g/km"
             interior = "- Deportividad y emociones son los rasgos característicos del Mercedes-AMG GT. Sus formas auténticas y una poderosa silueta cautivan antes incluso de tomar asiento a bordo.\n\n- Una impresión que continúa en el interior: perfección sin igual hasta el más pequeño detalle. Fascinante como pocos automóviles deportivos."
             precio = 147100
             imagenFondo.image = UIImage(named: "M-GTI.jpg")
-            conf = "https://configurator.mercedes-benz.com/configurador/es/es/merdeces-amg-gt/coupe/carconfig?model=1903771&subprocess=CCci&accountID=daimpces"
+            conf = "https://www.mercedes-amg.com/en/vehicles/gt/coupe/gt-r.html"
             
         }
         else if (info1 == "ClioRS"){
@@ -161,13 +162,14 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             precio = 31250
             imagenFondo.image = UIImage(named: "S-IbizaI.jpg")
             
+            
         }
         else if (info1 == "Leon Cupra"){
             motor = "- Potencia de 300 cv, POTENCIA MÁX.: 5.500 - 6.200 RPM. \n\n -380 Nm PAR MOTOR MÁX.: 1.800 - 5.500 RPM\n\n- 250 km/h VELOCIDAD MÁX. \n\n- 5,7 s ACELERACIÓN 0-100 km/h.\n\n- 4 CILINDROS; 1984 cc CILINDRADA; 9,3\n\n- RELACIÓN DE COMPRESIÓN; 82,5 / 92,8 mm\n\n- DIÁMETRO X CARRERA; 158 g/km EMISIONES DE CO2"
             interior = "- Con ocho colores diferentes para elegir, puedes subir la temperatura del interior del Nuevo SEAT León CUPRA... o mantener siempre su frescura. Te sientas como te sientas en la carretera, existe un color que combina con tu estado de ánimo.\n\n- Con el CUPRA siempre contarás con los acabados más dinámicos, hasta el más mínimo detalle. Viene equipado con un interior de alta calidad, diseñado de forma ergonómica para que puedas disfrutar de cada momento del trayecto y para que estar en la carretera sea un placer absoluto."
             precio = 31250
             imagenFondo.image = UIImage(named: "S-LeonI.jpeg")
-            conf = "http://configurador.seat.es/seat-cc/desktop-desktop-003_DEFAULT-es-normal.view?msk=2"
+            conf = "https://configurador.seat.es/seat-cc/desktop-desktop-003_DEFAULT-es-normal.view?msk=1"
             
         }
         else if (info1 == "Golf R"){
