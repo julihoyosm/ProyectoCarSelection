@@ -10,6 +10,7 @@
 		2DC70E1EC98B9ED6C5C80206 /* Pods_ProyectoPruebaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F152AC6F358C299B03DE52B /* Pods_ProyectoPruebaTests.framework */; };
 		5E81A3AB408E82183B2C67F6 /* Pods_ProyectoPrueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B56992823D36FB2E08DB37 /* Pods_ProyectoPrueba.framework */; };
 		9E3ACD33AE673D2AD0E02EDE /* Pods_ProyectoPruebaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103A90733B3CEA8695F84C23 /* Pods_ProyectoPruebaUITests.framework */; };
+		D034C06E21EB8BC9002AF8B4 /* botonInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = D034C06D21EB8BC8002AF8B4 /* botonInicio.png */; };
 		D0492F0321AD6FE600A3BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */; };
 		D0492F0521AD6FE600A3BF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0421AD6FE600A3BF0E /* ViewController.swift */; };
 		D0492F0821AD6FE600A3BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0621AD6FE600A3BF0E /* Main.storyboard */; };
@@ -124,6 +125,7 @@
 		99078389DD85FA217FEB29A9 /* Pods-ProyectoPrueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPrueba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoPrueba/Pods-ProyectoPrueba.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB993E7643C71A3363595B2 /* Pods-ProyectoPruebaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPruebaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoPruebaTests/Pods-ProyectoPruebaTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5389368A927C4AD6816409B /* Pods-ProyectoPruebaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPruebaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoPruebaUITests/Pods-ProyectoPruebaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D034C06D21EB8BC8002AF8B4 /* botonInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonInicio.png; sourceTree = "<group>"; };
 		D0492EFF21AD6FE600A3BF0E /* ProyectoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0492F0421AD6FE600A3BF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 		D0492F3821AD73F700A3BF0E /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				D034C06D21EB8BC8002AF8B4 /* botonInicio.png */,
 				D07A115121C81BC100D5EFDB /* Retroceso.png */,
 				D07A114F21C6DBD900D5EFDB /* FotoPortada.jpg */,
 				D0492FC721B15C2000A3BF0E /* leerMas.png */,
@@ -554,6 +557,7 @@
 				D0492F7F21AD743C00A3BF0E /* LogoBMW.png in Resources */,
 				D0492F7E21AD743C00A3BF0E /* SelectCar.jpg in Resources */,
 				D0492FB521AD743C00A3BF0E /* A-r8L.jpg in Resources */,
+				D034C06E21EB8BC9002AF8B4 /* botonInicio.png in Resources */,
 				D0492FA121AD743C00A3BF0E /* A-rs3L.jpg in Resources */,
 				D0492F8321AD743C00A3BF0E /* V-SciroccoI.jpg in Resources */,
 				D0492F9821AD743C00A3BF0E /* LogoMercedes.png in Resources */,
