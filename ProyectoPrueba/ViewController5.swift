@@ -18,11 +18,11 @@ class ViewController5: UIViewController, UIWebViewDelegate, WKUIDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let urlString = varWeb
+       let urlString = varWeb
         let request = URLRequest(url: URL(string: urlString)!)
         self.accesoWeb.load(request)
-       // nombreWeb.text = varWeb
-       // cargaPagina()
+ 
+       
         // Do any additional setup after loading the view.
     }
     

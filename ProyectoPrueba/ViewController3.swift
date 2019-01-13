@@ -233,16 +233,17 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     }
     @IBAction func volver (segue : UIStoryboardSegue){
         
-        _ = segue.source as! ViewController5
+        _ = segue.source as! ViewController4
        // _ = segue.source as! ViewController4
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier=="Detalle2" {
-            let dest = segue.destination as! ViewController4
-            dest.info2 = label3.text!
-            dest.preciotasar = precio
+            let destino = segue.destination as! ViewController4
+           
+            destino.info2 = label3.text!
+            destino.preciotasar = precio
             // No consigo pasar el precio almacenado en una variable a la siguiente pantalla, no recoge el valor del precio del vehículo que esté seleccionado
         }
         else if segue.identifier=="Detalle5"{

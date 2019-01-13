@@ -15,7 +15,7 @@
 		D0492F0321AD6FE600A3BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */; };
 		D0492F0521AD6FE600A3BF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0421AD6FE600A3BF0E /* ViewController.swift */; };
 		D0492F0821AD6FE600A3BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0621AD6FE600A3BF0E /* Main.storyboard */; };
-		D0492F0A21AD6FE800A3BF0E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0921AD6FE800A3BF0E /* Contents.json */; };
+		D0492F0A21AD6FE800A3BF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0921AD6FE800A3BF0E /* Assets.xcassets */; };
 		D0492F0D21AD6FE800A3BF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0B21AD6FE800A3BF0E /* LaunchScreen.storyboard */; };
 		D0492F1821AD6FE900A3BF0E /* ProyectoPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F1721AD6FE900A3BF0E /* ProyectoPruebaTests.swift */; };
 		D0492F2321AD6FE900A3BF0E /* ProyectoPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F2221AD6FE900A3BF0E /* ProyectoPruebaUITests.swift */; };
@@ -132,7 +132,7 @@
 		D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0492F0421AD6FE600A3BF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0492F0721AD6FE600A3BF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0492F0921AD6FE800A3BF0E /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
+		D0492F0921AD6FE800A3BF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = text; name = Assets.xcassets; path = Assets.xcassets/AppIcon.appiconset/Assets.xcassets; sourceTree = "<group>"; };
 		D0492F0C21AD6FE800A3BF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0492F0E21AD6FE800A3BF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0492F1321AD6FE900A3BF0E /* ProyectoPruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoPruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,7 +309,7 @@
 				D0492FC521AD9AF100A3BF0E /* ViewController5.swift */,
 				D065DAE821B1B5D800EAA34D /* ViewController6.swift */,
 				D0492F0621AD6FE600A3BF0E /* Main.storyboard */,
-				D0492F0921AD6FE800A3BF0E /* Contents.json */,
+				D0492F0921AD6FE800A3BF0E /* Assets.xcassets */,
 				D0492F0B21AD6FE800A3BF0E /* LaunchScreen.storyboard */,
 				D0492F0E21AD6FE800A3BF0E /* Info.plist */,
 			);
@@ -557,7 +557,7 @@
 				D0492F8C21AD743C00A3BF0E /* M-aAMG.jpg in Resources */,
 				D0492F8621AD743C00A3BF0E /* LogoRenault.png in Resources */,
 				D0492FB721AD743C00A3BF0E /* R-clioRS.jpg in Resources */,
-				D0492F0A21AD6FE800A3BF0E /* Contents.json in Resources */,
+				D0492F0A21AD6FE800A3BF0E /* Assets.xcassets in Resources */,
 				D0492F8421AD743C00A3BF0E /* M-amgL.jpeg in Resources */,
 				D0492FA421AD743C00A3BF0E /* B-m4.jpg in Resources */,
 				D0492F9921AD743C00A3BF0E /* B-i8I.jpg in Resources */,
