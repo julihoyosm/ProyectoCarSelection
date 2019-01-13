@@ -27,7 +27,7 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     
     var optionRolAudi = ["RS3", "RS5","RS7", "R8"]
     var optionRolBMW = ["M2", "M3","M4","M6", "i8"]
-    var optionRolMercedes = ["Clase A AMG", "CLA AMG", "GLA AMG", "C63 AMG", "GT AMG"]
+    var optionRolMercedes = ["Clase A AMG", "CLA AMG", "GLA AMG", "C63 S AMG", "GT R AMG"]
     var optionRolRenault = ["ClioRS", "MeganeRS"]
     var optionRolSeat = ["Ibiza Cupra", "Leon Cupra"]
     var optionRolVolkswagen = ["Golf R", "Scirocco R"]
