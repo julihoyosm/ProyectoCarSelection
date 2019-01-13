@@ -46,7 +46,7 @@ class ViewController1: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     
     func pintaMarca (posicion: Int) {
         if (posicionRol1 == 0){
-            Marca.text = ""
+            Marca.text = " "
             ImagenFondo.image = UIImage()
         }
         else if (posicionRol1 == 1){
@@ -92,11 +92,21 @@ class ViewController1: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     
     //Con este metodo se muestra en la segunda pantalla el icono que ha quedado seleccionado en la primera
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       if (segue.identifier=="Detalle" && Marca.text==" ") {
+         alerta(titulo: "Error de seleccion", mensaje: "Por favor, seleccione una marca valida para poder pasar a la selección de modelos")
+        }
+       else{
         let destino = segue.destination as! ViewController2
         destino.info = Marca.text!
-        
+        }
     }
     
-    
+    func alerta(titulo:String, mensaje:String){
+        let alert = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)
+        let continueAction = UIAlertAction(title: "Volver", style: .default, handler: nil)
+        alert.addAction(continueAction)
+        self.present(alert, animated: true, completion: nil)
+        
+    }
     
 }

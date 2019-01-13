@@ -93,7 +93,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lhQ-dF-Dxj" kind="show" id="n5B-7R-E5O"/>
+                                    <segue destination="lhQ-dF-Dxj" kind="show" identifier="Detalle" id="n5B-7R-E5O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,21 +144,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-DV-tIb">
-                                <rect key="frame" x="46" y="599" width="282" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Pasar a especificaciones"/>
-                                <connections>
-                                    <segue destination="rRF-u2-0Wr" kind="show" identifier="Detalle" id="xgM-9l-fml"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO8-hV-q38">
                                 <rect key="frame" x="16" y="45" width="54" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Retroceso.png"/>
                                 <connections>
                                     <segue destination="PV5-hi-zNv" kind="unwind" unwindAction="volverWithSegue:" id="F10-N8-Q4N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-DV-tIb">
+                                <rect key="frame" x="66" y="690" width="282" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Pasar a especificaciones"/>
+                                <connections>
+                                    <segue destination="rRF-u2-0Wr" kind="show" identifier="Detalle" id="xgM-9l-fml"/>
                                 </connections>
                             </button>
                         </subviews>

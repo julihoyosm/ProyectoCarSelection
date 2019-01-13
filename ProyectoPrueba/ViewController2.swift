@@ -77,9 +77,10 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             optionMenu = optionRolVolkswagen
             optionMenuFondo = fotosVolkswagen
         }
-       /* else if (info == " "){
+       
+      /*  else if (info == " "){
            alerta(titulo: "Error de seleccion", mensaje: "Error")
-            optionMenuFondo = fotosVolkswagen
+            //optionMenuFondo = fotosVolkswagen
         }
  */
         
@@ -88,13 +89,7 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
     }
     
-    func alerta(titulo:String, mensaje:String){
-        let alert = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)
-        let continueAction = UIAlertAction(title: "Volver", style: .default, handler: nil)
-        alert.addAction(continueAction)
-        self.present(alert, animated: true, completion: nil)
-        
-    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
