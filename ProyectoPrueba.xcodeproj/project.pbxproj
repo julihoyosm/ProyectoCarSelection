@@ -12,6 +12,9 @@
 		9E3ACD33AE673D2AD0E02EDE /* Pods_ProyectoPruebaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103A90733B3CEA8695F84C23 /* Pods_ProyectoPruebaUITests.framework */; };
 		D034C06E21EB8BC9002AF8B4 /* botonInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = D034C06D21EB8BC8002AF8B4 /* botonInicio.png */; };
 		D034C07021EBD9A6002AF8B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D034C06F21EBD9A6002AF8B4 /* MapKit.framework */; };
+		D034C0AE21ECB8EE002AF8B4 /* localizacionVehiculo.png in Resources */ = {isa = PBXBuildFile; fileRef = D034C0AB21ECB8EB002AF8B4 /* localizacionVehiculo.png */; };
+		D034C0AF21ECB8EE002AF8B4 /* tasacionVehiculo.png in Resources */ = {isa = PBXBuildFile; fileRef = D034C0AC21ECB8EC002AF8B4 /* tasacionVehiculo.png */; };
+		D034C0B021ECB8EE002AF8B4 /* diseñoVehiculo.png in Resources */ = {isa = PBXBuildFile; fileRef = D034C0AD21ECB8ED002AF8B4 /* diseñoVehiculo.png */; };
 		D0492F0321AD6FE600A3BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */; };
 		D0492F0521AD6FE600A3BF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F0421AD6FE600A3BF0E /* ViewController.swift */; };
 		D0492F0821AD6FE600A3BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0492F0621AD6FE600A3BF0E /* Main.storyboard */; };
@@ -128,6 +131,9 @@
 		C5389368A927C4AD6816409B /* Pods-ProyectoPruebaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPruebaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoPruebaUITests/Pods-ProyectoPruebaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D034C06D21EB8BC8002AF8B4 /* botonInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botonInicio.png; sourceTree = "<group>"; };
 		D034C06F21EBD9A6002AF8B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D034C0AB21ECB8EB002AF8B4 /* localizacionVehiculo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = localizacionVehiculo.png; sourceTree = "<group>"; };
+		D034C0AC21ECB8EC002AF8B4 /* tasacionVehiculo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tasacionVehiculo.png; sourceTree = "<group>"; };
+		D034C0AD21ECB8ED002AF8B4 /* diseñoVehiculo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diseñoVehiculo.png"; sourceTree = "<group>"; };
 		D0492EFF21AD6FE600A3BF0E /* ProyectoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0492F0221AD6FE600A3BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0492F0421AD6FE600A3BF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -337,6 +343,9 @@
 		D0492F3821AD73F700A3BF0E /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				D034C0AD21ECB8ED002AF8B4 /* diseñoVehiculo.png */,
+				D034C0AB21ECB8EB002AF8B4 /* localizacionVehiculo.png */,
+				D034C0AC21ECB8EC002AF8B4 /* tasacionVehiculo.png */,
 				D034C06D21EB8BC8002AF8B4 /* botonInicio.png */,
 				D07A115121C81BC100D5EFDB /* Retroceso.png */,
 				D07A114F21C6DBD900D5EFDB /* FotoPortada.jpg */,
@@ -559,6 +568,7 @@
 				D0492FB721AD743C00A3BF0E /* R-clioRS.jpg in Resources */,
 				D0492F0A21AD6FE800A3BF0E /* Assets.xcassets in Resources */,
 				D0492F8421AD743C00A3BF0E /* M-amgL.jpeg in Resources */,
+				D034C0AF21ECB8EE002AF8B4 /* tasacionVehiculo.png in Resources */,
 				D0492FA421AD743C00A3BF0E /* B-m4.jpg in Resources */,
 				D0492F9921AD743C00A3BF0E /* B-i8I.jpg in Resources */,
 				D0492F8A21AD743C00A3BF0E /* LogoVolkswagen.png in Resources */,
@@ -568,6 +578,7 @@
 				D0492FB521AD743C00A3BF0E /* A-r8L.jpg in Resources */,
 				D034C06E21EB8BC9002AF8B4 /* botonInicio.png in Resources */,
 				D0492FA121AD743C00A3BF0E /* A-rs3L.jpg in Resources */,
+				D034C0B021ECB8EE002AF8B4 /* diseñoVehiculo.png in Resources */,
 				D0492F8321AD743C00A3BF0E /* V-SciroccoI.jpg in Resources */,
 				D0492F9821AD743C00A3BF0E /* LogoMercedes.png in Resources */,
 				D0492FA221AD743C00A3BF0E /* R-RSL.jpg in Resources */,
@@ -582,6 +593,7 @@
 				D0492F8821AD743C00A3BF0E /* A-r8.jpg in Resources */,
 				D0492FBA21AD743C00A3BF0E /* R-clioL.jpg in Resources */,
 				D0492FBB21AD743C00A3BF0E /* S-LeonI.jpeg in Resources */,
+				D034C0AE21ECB8EE002AF8B4 /* localizacionVehiculo.png in Resources */,
 				D0492F9321AD743C00A3BF0E /* A-rs3L.jpeg in Resources */,
 				D0492FB021AD743C00A3BF0E /* R-MeganeI.jpg in Resources */,
 				D0492FB821AD743C00A3BF0E /* LogoAudi.png in Resources */,

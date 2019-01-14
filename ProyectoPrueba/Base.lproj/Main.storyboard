@@ -73,7 +73,7 @@
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qz-MV-3et">
                                 <rect key="frame" x="0.0" y="650" width="414" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
                                 <state key="normal" title="Pasar a seleción de modelos de ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +91,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.78062549018237937" green="0.80242703045685282" blue="0.11416623909504492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="IpQ-Af-fjo"/>
                     </view>
                     <connections>
@@ -123,23 +123,18 @@
                                     <navigationItem id="x8k-Zu-2zM"/>
                                 </items>
                             </navigationBar>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MSJ-Da-vbn">
-                                <rect key="frame" x="0.0" y="375" width="414" height="245"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                            </pickerView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-gN-UZN">
-                                <rect key="frame" x="0.0" y="99" width="414" height="274"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-gN-UZN">
+                                <rect key="frame" x="0.0" y="99" width="414" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlx-mS-87L">
-                                <rect key="frame" x="109" y="61" width="196" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="61" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO8-hV-q38">
-                                <rect key="frame" x="16" y="45" width="54" height="54"/>
+                                <rect key="frame" x="16" y="49" width="50" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Retroceso.png"/>
                                 <connections>
@@ -148,15 +143,20 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-DV-tIb">
                                 <rect key="frame" x="0.0" y="675" width="414" height="187"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="21"/>
-                                <state key="normal" title="Pasar a especificaciones del vehículo">
+                                <state key="normal" title="Especificaciones del vehículo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="rRF-u2-0Wr" kind="show" identifier="Detalle" id="xgM-9l-fml"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MSJ-Da-vbn">
+                                <rect key="frame" x="0.0" y="422" width="414" height="245"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
@@ -191,16 +191,16 @@
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V13-gX-rrO">
                                 <rect key="frame" x="0.0" y="98" width="414" height="341"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0R0-tT-QJM">
-                                <rect key="frame" x="143" y="50" width="128" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Seleccione la característica a mostrar" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="78A-gE-t4r">
-                                <rect key="frame" x="0.0" y="442" width="414" height="159"/>
+                                <rect key="frame" x="20" y="188" width="414" height="212"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -209,7 +209,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkn-Ti-Cjb">
-                                <rect key="frame" x="16" y="45" width="54" height="54"/>
+                                <rect key="frame" x="16" y="49" width="50" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Retroceso.png"/>
                                 <connections>
@@ -217,36 +217,38 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yml-SU-w3S">
-                                <rect key="frame" x="0.0" y="154" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="160" width="414" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1D-nH-lvq">
-                                <rect key="frame" x="20" y="719" width="331" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="PASAR A TASACIÓN DEL VEHÍCULO"/>
-                                <connections>
-                                    <segue destination="jbA-4K-tLc" kind="show" identifier="Detalle2" id="8gA-N7-5Yx"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diseñoVehiculo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BKv-FH-hmX">
+                                <rect key="frame" x="148" y="404" width="117" height="88"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efi-3U-Q1n">
-                                <rect key="frame" x="115" y="662" width="222" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="CONFI"/>
+                                <rect key="frame" x="0.0" y="358" width="414" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="21"/>
+                                <state key="normal" title="CONFIGURAR VEHÍCULO">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ZiO-zQ-7kx" kind="show" identifier="Detalle5" id="9Eu-5H-b9y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hsg-uU-hG5">
-                                <rect key="frame" x="134" y="801" width="184" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1D-nH-lvq">
+                                <rect key="frame" x="88" y="404" width="238" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mapas"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="21"/>
+                                <state key="normal" title="CUOTA DEL VEHÍCULO">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="kE4-Ob-OSp" kind="show" id="G47-jk-SUb"/>
+                                    <segue destination="jbA-4K-tLc" kind="show" identifier="Detalle2" id="8gA-N7-5Yx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.77365561548223349" green="0.0089113279713937833" blue="0.18195334994162563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JcJ-gE-Z4I"/>
                     </view>
                     <connections>
@@ -276,20 +278,20 @@
                                     <navigationItem id="utQ-83-wHY"/>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWR-WK-Vm4">
+                                <rect key="frame" x="0.0" y="28" width="414" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNg-15-BoR">
-                                <rect key="frame" x="16" y="45" width="54" height="54"/>
+                                <rect key="frame" x="16" y="49" width="50" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Retroceso.png"/>
                                 <connections>
                                     <segue destination="lnZ-BI-BQx" kind="unwind" unwindAction="volverWithSegue:" id="g1P-Qg-G7T"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWR-WK-Vm4">
-                                <rect key="frame" x="156" y="28" width="101" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gxl-Uv-pSE">
                                 <rect key="frame" x="0.0" y="174" width="414" height="243"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -342,7 +344,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lm5-d8-wHT">
-                                <rect key="frame" x="16" y="45" width="54" height="54"/>
+                                <rect key="frame" x="16" y="49" width="50" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Retroceso.png"/>
                                 <connections>
@@ -382,5 +384,6 @@
         <image name="FotoPortada.jpg" width="1080" height="1920"/>
         <image name="Retroceso.png" width="512" height="512"/>
         <image name="botonInicio.png" width="800" height="800"/>
+        <image name="diseñoVehiculo.png" width="512" height="512"/>
     </resources>
 </document>
