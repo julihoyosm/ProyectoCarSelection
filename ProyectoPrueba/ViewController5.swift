@@ -13,11 +13,14 @@ class ViewController5: UIViewController, UIWebViewDelegate, WKUIDelegate{
 
     @IBOutlet weak var accesoWeb: WKWebView!
     var varWeb = ""
+    var info5 = " "
  
+    @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var nombreWeb: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label5.text = info5
        let urlString = varWeb
         let request = URLRequest(url: URL(string: urlString)!)
         self.accesoWeb.load(request)
