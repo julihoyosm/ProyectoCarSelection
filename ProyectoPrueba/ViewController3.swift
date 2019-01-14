@@ -234,7 +234,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBAction func volver (segue : UIStoryboardSegue){
         
         _ = segue.source as! ViewController4
-       // _ = segue.source as! ViewController4
+        //_ = segue.source as! ViewController5
         
     }
     
@@ -249,6 +249,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         else if segue.identifier=="Detalle5"{
             let desti = segue.destination as! ViewController5
             desti.varWeb = conf
+            desti.info5 = label3.text!
         
         }
     }

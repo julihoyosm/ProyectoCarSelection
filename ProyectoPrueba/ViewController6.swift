@@ -21,7 +21,6 @@ class ViewController6: UIViewController {
         view = mapView
         
         
-    //comentario prueba
         
         
     // Creates a marker in the center of the map.
@@ -42,7 +41,7 @@ class ViewController6: UIViewController {
     marker1.snippet = "España"
     marker1.map = mapView
 
-           let marker2 = GMSMarker()
+    let marker2 = GMSMarker()
            marker2.position = CLLocationCoordinate2D(latitude: 41.6369923, longitude: -0.8619203)
           marker2.title = "Zaragoza"
             marker2.snippet = "España"
