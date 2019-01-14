@@ -26,13 +26,11 @@
 		D0492F3321AD702100A3BF0E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F3221AD702100A3BF0E /* ViewController2.swift */; };
 		D0492F3521AD708000A3BF0E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F3421AD708000A3BF0E /* ViewController3.swift */; };
 		D0492F3721AD708B00A3BF0E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492F3621AD708B00A3BF0E /* ViewController4.swift */; };
-		D0492F7E21AD743C00A3BF0E /* SelectCar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3921AD743500A3BF0E /* SelectCar.jpg */; };
 		D0492F7F21AD743C00A3BF0E /* LogoBMW.png in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3A21AD743500A3BF0E /* LogoBMW.png */; };
 		D0492F8021AD743C00A3BF0E /* M-ClaseAI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3B21AD743500A3BF0E /* M-ClaseAI.jpg */; };
 		D0492F8121AD743C00A3BF0E /* M-GTI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3C21AD743500A3BF0E /* M-GTI.jpg */; };
 		D0492F8221AD743C00A3BF0E /* V-GolfI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3D21AD743500A3BF0E /* V-GolfI.jpg */; };
 		D0492F8321AD743C00A3BF0E /* V-SciroccoI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3E21AD743500A3BF0E /* V-SciroccoI.jpg */; };
-		D0492F8421AD743C00A3BF0E /* M-amgL.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F3F21AD743600A3BF0E /* M-amgL.jpeg */; };
 		D0492F8521AD743C00A3BF0E /* B-M2I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4021AD743600A3BF0E /* B-M2I.jpg */; };
 		D0492F8621AD743C00A3BF0E /* LogoRenault.png in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4121AD743600A3BF0E /* LogoRenault.png */; };
 		D0492F8721AD743C00A3BF0E /* B-i8L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4221AD743600A3BF0E /* B-i8L.jpg */; };
@@ -49,7 +47,6 @@
 		D0492F9221AD743C00A3BF0E /* M-amgL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4D21AD743700A3BF0E /* M-amgL.jpg */; };
 		D0492F9321AD743C00A3BF0E /* A-rs3L.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4E21AD743700A3BF0E /* A-rs3L.jpeg */; };
 		D0492F9421AD743C00A3BF0E /* R-meganeRS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F4F21AD743700A3BF0E /* R-meganeRS.jpg */; };
-		D0492F9521AD743C00A3BF0E /* R-RSL.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F5021AD743700A3BF0E /* R-RSL.jpeg */; };
 		D0492F9621AD743C00A3BF0E /* V-golf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F5121AD743700A3BF0E /* V-golf.jpg */; };
 		D0492F9721AD743C00A3BF0E /* B-M4I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F5221AD743800A3BF0E /* B-M4I.jpg */; };
 		D0492F9821AD743C00A3BF0E /* LogoMercedes.png in Resources */ = {isa = PBXBuildFile; fileRef = D0492F5321AD743800A3BF0E /* LogoMercedes.png */; };
@@ -82,7 +79,6 @@
 		D0492FB321AD743C00A3BF0E /* A-R8I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F6E21AD743B00A3BF0E /* A-R8I.jpg */; };
 		D0492FB421AD743C00A3BF0E /* S-ibiza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F6F21AD743B00A3BF0E /* S-ibiza.jpg */; };
 		D0492FB521AD743C00A3BF0E /* A-r8L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7021AD743B00A3BF0E /* A-r8L.jpg */; };
-		D0492FB621AD743C00A3BF0E /* A-r8L.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7121AD743B00A3BF0E /* A-r8L.jpeg */; };
 		D0492FB721AD743C00A3BF0E /* R-clioRS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7221AD743B00A3BF0E /* R-clioRS.jpg */; };
 		D0492FB821AD743C00A3BF0E /* LogoAudi.png in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7321AD743B00A3BF0E /* LogoAudi.png */; };
 		D0492FB921AD743C00A3BF0E /* M-amggt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7421AD743B00A3BF0E /* M-amggt.jpg */; };
@@ -92,7 +88,6 @@
 		D0492FBD21AD743C00A3BF0E /* M-claAMG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7821AD743C00A3BF0E /* M-claAMG.jpg */; };
 		D0492FBE21AD743C00A3BF0E /* A-rs7L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7921AD743C00A3BF0E /* A-rs7L.jpg */; };
 		D0492FBF21AD743C00A3BF0E /* V-scirocco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7A21AD743C00A3BF0E /* V-scirocco.jpg */; };
-		D0492FC021AD743C00A3BF0E /* flecha-atras.png in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7B21AD743C00A3BF0E /* flecha-atras.png */; };
 		D0492FC121AD743C00A3BF0E /* V-RL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7C21AD743C00A3BF0E /* V-RL.jpg */; };
 		D0492FC221AD743C00A3BF0E /* A-RS3I.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0492F7D21AD743C00A3BF0E /* A-RS3I.jpg */; };
 		D0492FC621AD9AF100A3BF0E /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0492FC521AD9AF100A3BF0E /* ViewController5.swift */; };
@@ -151,13 +146,11 @@
 		D0492F3221AD702100A3BF0E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D0492F3421AD708000A3BF0E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		D0492F3621AD708B00A3BF0E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
-		D0492F3921AD743500A3BF0E /* SelectCar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SelectCar.jpg; sourceTree = "<group>"; };
 		D0492F3A21AD743500A3BF0E /* LogoBMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoBMW.png; sourceTree = "<group>"; };
 		D0492F3B21AD743500A3BF0E /* M-ClaseAI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-ClaseAI.jpg"; sourceTree = "<group>"; };
 		D0492F3C21AD743500A3BF0E /* M-GTI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-GTI.jpg"; sourceTree = "<group>"; };
 		D0492F3D21AD743500A3BF0E /* V-GolfI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "V-GolfI.jpg"; sourceTree = "<group>"; };
 		D0492F3E21AD743500A3BF0E /* V-SciroccoI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "V-SciroccoI.jpg"; sourceTree = "<group>"; };
-		D0492F3F21AD743600A3BF0E /* M-amgL.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-amgL.jpeg"; sourceTree = "<group>"; };
 		D0492F4021AD743600A3BF0E /* B-M2I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B-M2I.jpg"; sourceTree = "<group>"; };
 		D0492F4121AD743600A3BF0E /* LogoRenault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoRenault.png; sourceTree = "<group>"; };
 		D0492F4221AD743600A3BF0E /* B-i8L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B-i8L.jpg"; sourceTree = "<group>"; };
@@ -174,7 +167,6 @@
 		D0492F4D21AD743700A3BF0E /* M-amgL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-amgL.jpg"; sourceTree = "<group>"; };
 		D0492F4E21AD743700A3BF0E /* A-rs3L.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-rs3L.jpeg"; sourceTree = "<group>"; };
 		D0492F4F21AD743700A3BF0E /* R-meganeRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R-meganeRS.jpg"; sourceTree = "<group>"; };
-		D0492F5021AD743700A3BF0E /* R-RSL.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R-RSL.jpeg"; sourceTree = "<group>"; };
 		D0492F5121AD743700A3BF0E /* V-golf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "V-golf.jpg"; sourceTree = "<group>"; };
 		D0492F5221AD743800A3BF0E /* B-M4I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B-M4I.jpg"; sourceTree = "<group>"; };
 		D0492F5321AD743800A3BF0E /* LogoMercedes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoMercedes.png; sourceTree = "<group>"; };
@@ -207,7 +199,6 @@
 		D0492F6E21AD743B00A3BF0E /* A-R8I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-R8I.jpg"; sourceTree = "<group>"; };
 		D0492F6F21AD743B00A3BF0E /* S-ibiza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "S-ibiza.jpg"; sourceTree = "<group>"; };
 		D0492F7021AD743B00A3BF0E /* A-r8L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-r8L.jpg"; sourceTree = "<group>"; };
-		D0492F7121AD743B00A3BF0E /* A-r8L.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-r8L.jpeg"; sourceTree = "<group>"; };
 		D0492F7221AD743B00A3BF0E /* R-clioRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R-clioRS.jpg"; sourceTree = "<group>"; };
 		D0492F7321AD743B00A3BF0E /* LogoAudi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoAudi.png; sourceTree = "<group>"; };
 		D0492F7421AD743B00A3BF0E /* M-amggt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-amggt.jpg"; sourceTree = "<group>"; };
@@ -217,7 +208,6 @@
 		D0492F7821AD743C00A3BF0E /* M-claAMG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "M-claAMG.jpg"; sourceTree = "<group>"; };
 		D0492F7921AD743C00A3BF0E /* A-rs7L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-rs7L.jpg"; sourceTree = "<group>"; };
 		D0492F7A21AD743C00A3BF0E /* V-scirocco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "V-scirocco.jpg"; sourceTree = "<group>"; };
-		D0492F7B21AD743C00A3BF0E /* flecha-atras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flecha-atras.png"; sourceTree = "<group>"; };
 		D0492F7C21AD743C00A3BF0E /* V-RL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "V-RL.jpg"; sourceTree = "<group>"; };
 		D0492F7D21AD743C00A3BF0E /* A-RS3I.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-RS3I.jpg"; sourceTree = "<group>"; };
 		D0492FC521AD9AF100A3BF0E /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
@@ -343,6 +333,110 @@
 		D0492F3821AD73F700A3BF0E /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB0BDC21ECECE900516E37 /* ImagenesUtilidades */,
+				D0EB0BDB21ECECC000516E37 /* ImagenesCoches */,
+				D0EB0BDA21ECECA400516E37 /* ImagenesLogos */,
+				D0EB0BD921ECEC3400516E37 /* ImagenesInteriores */,
+				D0EB0BD821ECEB5100516E37 /* ImagenesTraseras */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		D0EB0BD821ECEB5100516E37 /* ImagenesTraseras */ = {
+			isa = PBXGroup;
+			children = (
+				D0492F4E21AD743700A3BF0E /* A-rs3L.jpeg */,
+				D0492F5C21AD743900A3BF0E /* A-rs3L.jpg */,
+				D0492F6621AD743A00A3BF0E /* A-rs5L.jpeg */,
+				D0492F5621AD743800A3BF0E /* A-rs5L.jpg */,
+				D0492F7021AD743B00A3BF0E /* A-r8L.jpg */,
+				D0492F7921AD743C00A3BF0E /* A-rs7L.jpg */,
+				D0492F4221AD743600A3BF0E /* B-i8L.jpg */,
+				D0492F4C21AD743700A3BF0E /* B-m2L.jpg */,
+				D0492F5A21AD743900A3BF0E /* B-m3L.jpg */,
+				D0492F6421AD743A00A3BF0E /* B-m4L.jpg */,
+				D0492F7721AD743C00A3BF0E /* B-m6L.jpg */,
+				D0492F4D21AD743700A3BF0E /* M-amgL.jpg */,
+				D0492F6721AD743A00A3BF0E /* M-gtL.jpeg */,
+				D0492F7521AD743B00A3BF0E /* R-clioL.jpg */,
+				D0492F5D21AD743900A3BF0E /* R-RSL.jpg */,
+				D0492F6821AD743A00A3BF0E /* S-ibizaL.jpg */,
+				D0492F7C21AD743C00A3BF0E /* V-RL.jpg */,
+			);
+			path = ImagenesTraseras;
+			sourceTree = "<group>";
+		};
+		D0EB0BD921ECEC3400516E37 /* ImagenesInteriores */ = {
+			isa = PBXGroup;
+			children = (
+				D0492F6E21AD743B00A3BF0E /* A-R8I.jpg */,
+				D0492F7D21AD743C00A3BF0E /* A-RS3I.jpg */,
+				D0492F6321AD743A00A3BF0E /* A-RS5I.jpg */,
+				D0492F4A21AD743700A3BF0E /* A-RS7I.jpg */,
+				D0492F5421AD743800A3BF0E /* B-i8I.jpg */,
+				D0492F4021AD743600A3BF0E /* B-M2I.jpg */,
+				D0492F5B21AD743900A3BF0E /* B-M3I.png */,
+				D0492F5221AD743800A3BF0E /* B-M4I.jpg */,
+				D0492F6D21AD743B00A3BF0E /* B-M6I.jpg */,
+				D0492F6A21AD743A00A3BF0E /* M-C63I.jpg */,
+				D0492F5721AD743800A3BF0E /* M-CLAI.jpg */,
+				D0492F3B21AD743500A3BF0E /* M-ClaseAI.jpg */,
+				D0492F5921AD743800A3BF0E /* M-GLAI.jpg */,
+				D0492F3C21AD743500A3BF0E /* M-GTI.jpg */,
+				D0492F6521AD743A00A3BF0E /* R-ClioI.jpg */,
+				D0492F6B21AD743A00A3BF0E /* R-MeganeI.jpg */,
+				D0492F5821AD743800A3BF0E /* S-IbizaI.jpg */,
+				D0492F7621AD743C00A3BF0E /* S-LeonI.jpeg */,
+				D0492F3D21AD743500A3BF0E /* V-GolfI.jpg */,
+				D0492F3E21AD743500A3BF0E /* V-SciroccoI.jpg */,
+			);
+			path = ImagenesInteriores;
+			sourceTree = "<group>";
+		};
+		D0EB0BDA21ECECA400516E37 /* ImagenesLogos */ = {
+			isa = PBXGroup;
+			children = (
+				D0492F7321AD743B00A3BF0E /* LogoAudi.png */,
+				D0492F3A21AD743500A3BF0E /* LogoBMW.png */,
+				D0492F5321AD743800A3BF0E /* LogoMercedes.png */,
+				D0492F4121AD743600A3BF0E /* LogoRenault.png */,
+				D0492F5521AD743800A3BF0E /* LogoSeat.png */,
+				D0492F4521AD743600A3BF0E /* LogoVolkswagen.png */,
+			);
+			path = ImagenesLogos;
+			sourceTree = "<group>";
+		};
+		D0EB0BDB21ECECC000516E37 /* ImagenesCoches */ = {
+			isa = PBXGroup;
+			children = (
+				D0492F4321AD743600A3BF0E /* A-r8.jpg */,
+				D0492F4621AD743600A3BF0E /* A-RS3.jpg */,
+				D0492F6921AD743A00A3BF0E /* A-rs5.jpg */,
+				D0492F4821AD743700A3BF0E /* A-rs7.jpg */,
+				D0492F4421AD743600A3BF0E /* B-i8.jpg */,
+				D0492F4B21AD743700A3BF0E /* B-m2.jpg */,
+				D0492F6121AD743900A3BF0E /* B-m3.jpg */,
+				D0492F5F21AD743900A3BF0E /* B-m4.jpg */,
+				D0492F6C21AD743B00A3BF0E /* B-m6.jpg */,
+				D0492F4721AD743600A3BF0E /* M-aAMG.jpg */,
+				D0492F7421AD743B00A3BF0E /* M-amggt.jpg */,
+				D0492F4921AD743700A3BF0E /* M-c63AMG.jpg */,
+				D0492F7821AD743C00A3BF0E /* M-claAMG.jpg */,
+				D0492F6021AD743900A3BF0E /* M-glaAMG.jpg */,
+				D0492F7221AD743B00A3BF0E /* R-clioRS.jpg */,
+				D0492F4F21AD743700A3BF0E /* R-meganeRS.jpg */,
+				D0492F5E21AD743900A3BF0E /* S-cupraL.jpg */,
+				D0492F6F21AD743B00A3BF0E /* S-ibiza.jpg */,
+				D0492F6221AD743900A3BF0E /* S-leon.jpg */,
+				D0492F5121AD743700A3BF0E /* V-golf.jpg */,
+				D0492F7A21AD743C00A3BF0E /* V-scirocco.jpg */,
+			);
+			path = ImagenesCoches;
+			sourceTree = "<group>";
+		};
+		D0EB0BDC21ECECE900516E37 /* ImagenesUtilidades */ = {
+			isa = PBXGroup;
+			children = (
 				D034C0AD21ECB8ED002AF8B4 /* diseñoVehiculo.png */,
 				D034C0AB21ECB8EB002AF8B4 /* localizacionVehiculo.png */,
 				D034C0AC21ECB8EC002AF8B4 /* tasacionVehiculo.png */,
@@ -350,77 +444,8 @@
 				D07A115121C81BC100D5EFDB /* Retroceso.png */,
 				D07A114F21C6DBD900D5EFDB /* FotoPortada.jpg */,
 				D0492FC721B15C2000A3BF0E /* leerMas.png */,
-				D0492F4321AD743600A3BF0E /* A-r8.jpg */,
-				D0492F6E21AD743B00A3BF0E /* A-R8I.jpg */,
-				D0492F7121AD743B00A3BF0E /* A-r8L.jpeg */,
-				D0492F7021AD743B00A3BF0E /* A-r8L.jpg */,
-				D0492F4621AD743600A3BF0E /* A-RS3.jpg */,
-				D0492F7D21AD743C00A3BF0E /* A-RS3I.jpg */,
-				D0492F4E21AD743700A3BF0E /* A-rs3L.jpeg */,
-				D0492F5C21AD743900A3BF0E /* A-rs3L.jpg */,
-				D0492F6921AD743A00A3BF0E /* A-rs5.jpg */,
-				D0492F6321AD743A00A3BF0E /* A-RS5I.jpg */,
-				D0492F6621AD743A00A3BF0E /* A-rs5L.jpeg */,
-				D0492F5621AD743800A3BF0E /* A-rs5L.jpg */,
-				D0492F4821AD743700A3BF0E /* A-rs7.jpg */,
-				D0492F4A21AD743700A3BF0E /* A-RS7I.jpg */,
-				D0492F7921AD743C00A3BF0E /* A-rs7L.jpg */,
-				D0492F4421AD743600A3BF0E /* B-i8.jpg */,
-				D0492F5421AD743800A3BF0E /* B-i8I.jpg */,
-				D0492F4221AD743600A3BF0E /* B-i8L.jpg */,
-				D0492F4B21AD743700A3BF0E /* B-m2.jpg */,
-				D0492F4021AD743600A3BF0E /* B-M2I.jpg */,
-				D0492F4C21AD743700A3BF0E /* B-m2L.jpg */,
-				D0492F6121AD743900A3BF0E /* B-m3.jpg */,
-				D0492F5B21AD743900A3BF0E /* B-M3I.png */,
-				D0492F5A21AD743900A3BF0E /* B-m3L.jpg */,
-				D0492F5F21AD743900A3BF0E /* B-m4.jpg */,
-				D0492F5221AD743800A3BF0E /* B-M4I.jpg */,
-				D0492F6421AD743A00A3BF0E /* B-m4L.jpg */,
-				D0492F6C21AD743B00A3BF0E /* B-m6.jpg */,
-				D0492F6D21AD743B00A3BF0E /* B-M6I.jpg */,
-				D0492F7721AD743C00A3BF0E /* B-m6L.jpg */,
-				D0492F7B21AD743C00A3BF0E /* flecha-atras.png */,
-				D0492F7321AD743B00A3BF0E /* LogoAudi.png */,
-				D0492F3A21AD743500A3BF0E /* LogoBMW.png */,
-				D0492F5321AD743800A3BF0E /* LogoMercedes.png */,
-				D0492F4121AD743600A3BF0E /* LogoRenault.png */,
-				D0492F5521AD743800A3BF0E /* LogoSeat.png */,
-				D0492F4521AD743600A3BF0E /* LogoVolkswagen.png */,
-				D0492F4721AD743600A3BF0E /* M-aAMG.jpg */,
-				D0492F7421AD743B00A3BF0E /* M-amggt.jpg */,
-				D0492F3F21AD743600A3BF0E /* M-amgL.jpeg */,
-				D0492F4D21AD743700A3BF0E /* M-amgL.jpg */,
-				D0492F4921AD743700A3BF0E /* M-c63AMG.jpg */,
-				D0492F6A21AD743A00A3BF0E /* M-C63I.jpg */,
-				D0492F7821AD743C00A3BF0E /* M-claAMG.jpg */,
-				D0492F5721AD743800A3BF0E /* M-CLAI.jpg */,
-				D0492F3B21AD743500A3BF0E /* M-ClaseAI.jpg */,
-				D0492F6021AD743900A3BF0E /* M-glaAMG.jpg */,
-				D0492F5921AD743800A3BF0E /* M-GLAI.jpg */,
-				D0492F3C21AD743500A3BF0E /* M-GTI.jpg */,
-				D0492F6721AD743A00A3BF0E /* M-gtL.jpeg */,
-				D0492F6521AD743A00A3BF0E /* R-ClioI.jpg */,
-				D0492F7521AD743B00A3BF0E /* R-clioL.jpg */,
-				D0492F7221AD743B00A3BF0E /* R-clioRS.jpg */,
-				D0492F6B21AD743A00A3BF0E /* R-MeganeI.jpg */,
-				D0492F4F21AD743700A3BF0E /* R-meganeRS.jpg */,
-				D0492F5021AD743700A3BF0E /* R-RSL.jpeg */,
-				D0492F5D21AD743900A3BF0E /* R-RSL.jpg */,
-				D0492F5E21AD743900A3BF0E /* S-cupraL.jpg */,
-				D0492F6F21AD743B00A3BF0E /* S-ibiza.jpg */,
-				D0492F5821AD743800A3BF0E /* S-IbizaI.jpg */,
-				D0492F6821AD743A00A3BF0E /* S-ibizaL.jpg */,
-				D0492F6221AD743900A3BF0E /* S-leon.jpg */,
-				D0492F7621AD743C00A3BF0E /* S-LeonI.jpeg */,
-				D0492F3921AD743500A3BF0E /* SelectCar.jpg */,
-				D0492F5121AD743700A3BF0E /* V-golf.jpg */,
-				D0492F3D21AD743500A3BF0E /* V-GolfI.jpg */,
-				D0492F7C21AD743C00A3BF0E /* V-RL.jpg */,
-				D0492F7A21AD743C00A3BF0E /* V-scirocco.jpg */,
-				D0492F3E21AD743500A3BF0E /* V-SciroccoI.jpg */,
 			);
-			path = Imagenes;
+			path = ImagenesUtilidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,13 +563,11 @@
 			files = (
 				D0492F9D21AD743C00A3BF0E /* S-IbizaI.jpg in Resources */,
 				D0492F9121AD743C00A3BF0E /* B-m2L.jpg in Resources */,
-				D0492FC021AD743C00A3BF0E /* flecha-atras.png in Resources */,
 				D0492FA921AD743C00A3BF0E /* B-m4L.jpg in Resources */,
 				D07A115221C81BC300D5EFDB /* Retroceso.png in Resources */,
 				D0492FB921AD743C00A3BF0E /* M-amggt.jpg in Resources */,
 				D0492FA621AD743C00A3BF0E /* B-m3.jpg in Resources */,
 				D0492F0D21AD6FE800A3BF0E /* LaunchScreen.storyboard in Resources */,
-				D0492F9521AD743C00A3BF0E /* R-RSL.jpeg in Resources */,
 				D0492F9421AD743C00A3BF0E /* R-meganeRS.jpg in Resources */,
 				D0492F8721AD743C00A3BF0E /* B-i8L.jpg in Resources */,
 				D0492F8B21AD743C00A3BF0E /* A-RS3.jpg in Resources */,
@@ -567,14 +590,12 @@
 				D0492F8621AD743C00A3BF0E /* LogoRenault.png in Resources */,
 				D0492FB721AD743C00A3BF0E /* R-clioRS.jpg in Resources */,
 				D0492F0A21AD6FE800A3BF0E /* Assets.xcassets in Resources */,
-				D0492F8421AD743C00A3BF0E /* M-amgL.jpeg in Resources */,
 				D034C0AF21ECB8EE002AF8B4 /* tasacionVehiculo.png in Resources */,
 				D0492FA421AD743C00A3BF0E /* B-m4.jpg in Resources */,
 				D0492F9921AD743C00A3BF0E /* B-i8I.jpg in Resources */,
 				D0492F8A21AD743C00A3BF0E /* LogoVolkswagen.png in Resources */,
 				D0492F8E21AD743C00A3BF0E /* M-c63AMG.jpg in Resources */,
 				D0492F7F21AD743C00A3BF0E /* LogoBMW.png in Resources */,
-				D0492F7E21AD743C00A3BF0E /* SelectCar.jpg in Resources */,
 				D0492FB521AD743C00A3BF0E /* A-r8L.jpg in Resources */,
 				D034C06E21EB8BC9002AF8B4 /* botonInicio.png in Resources */,
 				D0492FA121AD743C00A3BF0E /* A-rs3L.jpg in Resources */,
@@ -585,7 +606,6 @@
 				D0492FAE21AD743C00A3BF0E /* A-rs5.jpg in Resources */,
 				D0492FB221AD743C00A3BF0E /* B-M6I.jpg in Resources */,
 				D0492F8021AD743C00A3BF0E /* M-ClaseAI.jpg in Resources */,
-				D0492FB621AD743C00A3BF0E /* A-r8L.jpeg in Resources */,
 				D0492FBE21AD743C00A3BF0E /* A-rs7L.jpg in Resources */,
 				D07A115021C6DBD900D5EFDB /* FotoPortada.jpg in Resources */,
 				D0492F8121AD743C00A3BF0E /* M-GTI.jpg in Resources */,
