@@ -13,8 +13,11 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet weak var rol3: UIPickerView!
     
     @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var fotoBotonConfiguracion: UIImageView!
     
-   
+    @IBOutlet weak var fotoBotonTasacion: UIImageView!
+    @IBOutlet weak var fotoBotonMapas: UIImageView!
+    
     @IBOutlet weak var descripcion: UITextView!
     
     @IBOutlet weak var imagenFondo: UIImageView!

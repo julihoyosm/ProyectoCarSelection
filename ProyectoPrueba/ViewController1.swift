@@ -15,6 +15,7 @@ class ViewController1: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     var posicionRol1 = 0
     
     
+    @IBOutlet weak var fotoBoton: UIImageView!
     @IBOutlet weak var Marca: UILabel!
     
     @IBOutlet weak var ImagenFondo: UIImageView!

@@ -18,7 +18,8 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet weak var label2: UILabel!
     
     @IBOutlet weak var imagenFondo: UIImageView!
-
+    @IBOutlet weak var fotoBoton2: UIImageView!
+    
     @IBOutlet weak var Imagen2: UIImageView!
     
     //este debemos dejarle para la tercera viewControler

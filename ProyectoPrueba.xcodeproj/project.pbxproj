@@ -95,6 +95,7 @@
 		D065DAE921B1B5D800EAA34D /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D065DAE821B1B5D800EAA34D /* ViewController6.swift */; };
 		D07A115021C6DBD900D5EFDB /* FotoPortada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D07A114F21C6DBD900D5EFDB /* FotoPortada.jpg */; };
 		D07A115221C81BC300D5EFDB /* Retroceso.png in Resources */ = {isa = PBXBuildFile; fileRef = D07A115121C81BC100D5EFDB /* Retroceso.png */; };
+		D0EC871421F87D00008854A2 /* fotoBoton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EC871321F87CFF008854A2 /* fotoBoton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		D065DAE821B1B5D800EAA34D /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		D07A114F21C6DBD900D5EFDB /* FotoPortada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FotoPortada.jpg; sourceTree = "<group>"; };
 		D07A115121C81BC100D5EFDB /* Retroceso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retroceso.png; sourceTree = "<group>"; };
+		D0EC871321F87CFF008854A2 /* fotoBoton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fotoBoton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +439,7 @@
 		D0EB0BDC21ECECE900516E37 /* ImagenesUtilidades */ = {
 			isa = PBXGroup;
 			children = (
+				D0EC871321F87CFF008854A2 /* fotoBoton.png */,
 				D034C0AD21ECB8ED002AF8B4 /* diseñoVehiculo.png */,
 				D034C0AB21ECB8EB002AF8B4 /* localizacionVehiculo.png */,
 				D034C0AC21ECB8EC002AF8B4 /* tasacionVehiculo.png */,
@@ -628,6 +631,7 @@
 				D0492F8221AD743C00A3BF0E /* V-GolfI.jpg in Resources */,
 				D0492F0821AD6FE600A3BF0E /* Main.storyboard in Resources */,
 				D0492F9A21AD743C00A3BF0E /* LogoSeat.png in Resources */,
+				D0EC871421F87D00008854A2 /* fotoBoton.png in Resources */,
 				D0492F8D21AD743C00A3BF0E /* A-rs7.jpg in Resources */,
 				D0492F9721AD743C00A3BF0E /* B-M4I.jpg in Resources */,
 				D0492F9B21AD743C00A3BF0E /* A-rs5L.jpg in Resources */,
