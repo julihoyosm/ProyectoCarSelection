@@ -69,7 +69,12 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         pinta(posicion: posicionRol4)
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier=="volver4" {
+            let destino = segue.destination as! ViewController3
+            destino.info1 = label4.text!
+        }
+    }
     
     
     
