@@ -12,6 +12,7 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
     @IBOutlet weak var rol4: UIPickerView!
     
+    @IBOutlet weak var imagen: UIImageView!
     @IBOutlet weak var preciotasado: UILabel!
     @IBOutlet weak var label4: UILabel!
     
@@ -26,6 +27,67 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         label4.text = info2
         rol4.delegate=self
         rol4.dataSource=self
+        if(info2 == "RS3"){
+            imagen.image = UIImage(named: "A-RS3T.jpg")
+            
+        }else if(info2 == "RS5"){
+            imagen.image = UIImage(named: "A-RS5T.jpg")
+            
+        }else if(info2 == "RS7"){
+            imagen.image = UIImage(named: "A-RS7T.jpg")
+            
+        }else if(info2 == "R8"){
+            imagen.image = UIImage(named: "A-R8T.jpg")
+            
+        }else if(info2 == "M2"){
+            imagen.image = UIImage(named: "B-M2T.jpg")
+            
+        }else if(info2 == "M3"){
+            imagen.image = UIImage(named: "B-M4T.jpg")
+            
+        }else if(info2 == "M4"){
+            imagen.image = UIImage(named: "B-M6T.jpg")
+            
+        }else if(info2 == "M6"){
+            imagen.image = UIImage(named: "B-i8T.jpg")
+            
+        }else if(info2 == "I8"){
+            imagen.image = UIImage(named: "B-i8T.jpg")
+            
+        }else if(info2 == "Clase A AMG"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "CLA AMG"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "GLA AMG"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "C63 S AMG"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "GT R AMG"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "ClioRS"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "MeganeRS"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "Ibiza Cupra"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "Leon Cupra"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "Golf R"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }else if(info2 == "Scirocco R"){
+            imagen.image = UIImage(named: "A-rs3L.jpg")
+            
+        }
         pinta(posicion: 0)
         // Do any additional setup after loading the view.
     }

@@ -13,8 +13,8 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet weak var rol3: UIPickerView!
     
     @IBOutlet weak var label3: UILabel!
-    @IBOutlet weak var fotoBotonConfiguracion: UIImageView!
     
+    @IBOutlet weak var fotoBotonConfiguracion: UIImageView!
     @IBOutlet weak var fotoBotonTasacion: UIImageView!
     @IBOutlet weak var fotoBotonMapas: UIImageView!
     
@@ -30,7 +30,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     var conf = ""
     var preciopase = 0
     var especificacionesMenu = [""]
-    var optionRol3 = ["Motor", "Interior", "Precio", "Configuración"]
+    var optionRol3 = ["Motor", "Interior", "Precio"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,8 +39,8 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         rol3.dataSource=self
         
         if (info1 == "RS3"){
-            motor = "Gracias al motor TFSI de cinco cilindros con 294 kW (400 CV) y 480 Nm de par máximo, el Audi RS 3 Sportback acelera de 0 a 100 km/h en solo 4,1 segundos. El Audi RS 3 Sportback hace una demostración de fuerza con la parrilla Audi Singleframe con acabado en color negro brillante y en forma de panal, las amplias entradas de aire y las taloneras con un diseño más anguloso."
-            interior = "-En el umbral de las puertas se encuentra iluminado el anagrama RS 3. Los asientos deportivos en piel Nappa Fina de color negro con el logotipo RS se incluyen de serie y opcionalmente pueden sustituirse por asientos deportivos RS con reposacabezas integrados. El paquete de diseño RS ofrece una opción aún más deportiva: los contrastes en rojo que acentúan el interior, por ejemplo en los revestimientos de las puertas, las esterillas y los cinturones de seguridad. El volante multifuncional RS se encarga de que el conductor lo tenga todo bajo control. El cuadro de instrumentos Audi virtual cockpit completamente digital muestra en la pantalla de 31,2 cm (12,3”) toda la información. Si lo desea, se muestra una pantalla exclusiva RS con el cuentarrevoluciones en el centro."
+            motor = "\n-Gracias al motor TFSI de cinco cilindros con 294 kW (400 CV) y 480 Nm de par máximo, el Audi RS 3 Sportback acelera de 0 a 100 km/h en solo 4,1 segundos.\n-El Audi RS 3 Sportback hace una demostración de fuerza con la parrilla Audi Singleframe con acabado en color negro brillante y en forma de panal, las amplias entradas de aire y las taloneras con un diseño más anguloso."
+            interior = "\n-En el umbral de las puertas se encuentra iluminado el anagrama RS 3. Los asientos deportivos en piel Nappa Fina de color negro con el logotipo RS se incluyen de serie y opcionalmente pueden sustituirse por asientos deportivos RS con reposacabezas integrados.\n-El paquete de diseño RS ofrece una opción aún más deportiva: los contrastes en rojo que acentúan el interior, por ejemplo en los revestimientos de las puertas, las esterillas y los cinturones de seguridad. El volante multifuncional RS se encarga de que el conductor lo tenga todo bajo control. El cuadro de instrumentos Audi virtual cockpit completamente digital muestra en la pantalla de 31,2 cm (12,3”) toda la información. Si lo desea, se muestra una pantalla exclusiva RS con el cuentarrevoluciones en el centro."
             precio =  59800
             imagenFondo.image = UIImage(named: "A-RS3I.jpg")
             conf = "https://www.audi.es/es/web/es/modelos/a3/audi-rs3-sportback.html"
@@ -222,9 +222,10 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         else if(posicionRol3 == 2){
             descripcion.text = "Desde "+String(precio)+" €"
         }
-         else if(posicionRol3 == 3){
+        /* else if(posicionRol3 == 3){
          descripcion.text = conf
          }
+ */
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
