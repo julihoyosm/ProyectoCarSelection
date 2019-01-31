@@ -238,7 +238,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBAction func volver (segue : UIStoryboardSegue){
         
         _ = segue.source as! ViewController5
-        //_ = segue.source as! ViewController5
+        //_ = segue.source as! ViewController4
         
     }
     
@@ -248,7 +248,7 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
            
             destino.info2 = label3.text!
             destino.preciotasar = precio
-            // No consigo pasar el precio almacenado en una variable a la siguiente pantalla, no recoge el valor del precio del vehículo que esté seleccionado
+           
         }
         else if segue.identifier=="Detalle5"{
             let desti = segue.destination as! ViewController5
@@ -256,6 +256,11 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             desti.info5 = label3.text!
         
         }
+        /*if segue.identifier=="volver3" {
+            let destin = segue.destination as! ViewController2
+            destin.info = label3.text!
+        }
+        */
     }
     
     /*

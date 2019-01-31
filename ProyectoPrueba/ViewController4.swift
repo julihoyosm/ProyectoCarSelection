@@ -114,16 +114,16 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
            tasacion.text = "Por favor, seleccione un periodo valido para calcular su tasación."
         }
         else if (posicionRol4 == 1){
-            tasacion.text = "Para un plazo de 5 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/60)+" €."
+            tasacion.text = "Para un plazo de 5 años, la cuota mensual para el coche seleccionado sería de "+String((precioreducido/60).rounded())+" €."
         }
         else if (posicionRol4 == 2){
-            tasacion.text = "Para un plazo de 3 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/36)+" €."
+            tasacion.text = "Para un plazo de 3 años, la cuota mensual para el coche seleccionado sería de "+String((precioreducido/36).rounded())+" €."
         }
         else if (posicionRol4 == 3){
-            tasacion.text = "Para un plazo de 1 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/12)+" €."
+            tasacion.text = "Para un plazo de 1 años, la cuota mensual para el coche seleccionado sería de "+String((precioreducido/12).rounded())+" €."
         }
         else if (posicionRol4 == 4){
-            tasacion.text = "Para un plazo de 6 meses, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/6)+" €."
+            tasacion.text = "Para un plazo de 6 meses, la cuota mensual para el coche seleccionado sería de "+String((precioreducido/6).rounded())+" €."
         }
 
     }
