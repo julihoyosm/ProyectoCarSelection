@@ -20,6 +20,7 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     var posicionRol4 = 0
     var info2 = " "
     var preciotasar = 0
+    var precioreducido = 0.0
     var optionRol4 = [" ","5 años", "3 años", "1 año", "6 meses"]
     
     override func viewDidLoad() {
@@ -27,6 +28,7 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         label4.text = info2
         rol4.delegate=self
         rol4.dataSource=self
+        precioreducido=Double(preciotasar)-Double(preciotasar)*0.15
         if(info2 == "RS3"){
             imagen.image = UIImage(named: "A-RS3T.jpg")
             
@@ -112,16 +114,16 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
            tasacion.text = "Por favor, seleccione un periodo valido para calcular su tasación."
         }
         else if (posicionRol4 == 1){
-            tasacion.text = "Para un plazo de 5 años, la cuota mensual para el coche seleccionado sería de "+String(preciotasar/60)+" €."
+            tasacion.text = "Para un plazo de 5 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/60)+" €."
         }
         else if (posicionRol4 == 2){
-            tasacion.text = "Para un plazo de 3 años, la cuota mensual para el coche seleccionado sería de "+String(preciotasar/36)+" €."
+            tasacion.text = "Para un plazo de 3 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/36)+" €."
         }
         else if (posicionRol4 == 3){
-            tasacion.text = "Para un plazo de 1 años, la cuota mensual para el coche seleccionado sería de "+String(preciotasar/12)+" €."
+            tasacion.text = "Para un plazo de 1 años, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/12)+" €."
         }
         else if (posicionRol4 == 4){
-            tasacion.text = "Para un plazo de 6 meses, la cuota mensual para el coche seleccionado sería de "+String(preciotasar/6)+" €."
+            tasacion.text = "Para un plazo de 6 meses, la cuota mensual para el coche seleccionado sería de "+String(precioreducido/6)+" €."
         }
 
     }
