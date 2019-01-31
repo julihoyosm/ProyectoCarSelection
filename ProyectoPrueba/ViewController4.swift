@@ -43,49 +43,49 @@ class ViewController4: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             imagen.image = UIImage(named: "B-M2T.jpg")
             
         }else if(info2 == "M3"){
-            imagen.image = UIImage(named: "B-M4T.jpg")
+            imagen.image = UIImage(named: "B-M3T.jpg")
             
         }else if(info2 == "M4"){
-            imagen.image = UIImage(named: "B-M6T.jpg")
+            imagen.image = UIImage(named: "B-M4T.jpg")
             
         }else if(info2 == "M6"){
-            imagen.image = UIImage(named: "B-i8T.jpg")
+            imagen.image = UIImage(named: "B-M6T.jpg")
             
         }else if(info2 == "I8"){
             imagen.image = UIImage(named: "B-i8T.jpg")
             
         }else if(info2 == "Clase A AMG"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "M-AT.jpg")
             
         }else if(info2 == "CLA AMG"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "M-CLAT.jpg")
             
         }else if(info2 == "GLA AMG"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "M-GLAT.jpg")
             
         }else if(info2 == "C63 S AMG"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "M-C63T.jpg")
             
         }else if(info2 == "GT R AMG"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "M-GTT.jpg")
             
         }else if(info2 == "ClioRS"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "R-CLIOT.jpg")
             
         }else if(info2 == "MeganeRS"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "R-MEGANET.jpg")
             
         }else if(info2 == "Ibiza Cupra"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "S-IBIZAT.jpeg")
             
         }else if(info2 == "Leon Cupra"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "S-LEONT.jpg")
             
         }else if(info2 == "Golf R"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "V-GOLFT.jpg")
             
         }else if(info2 == "Scirocco R"){
-            imagen.image = UIImage(named: "A-rs3L.jpg")
+            imagen.image = UIImage(named: "V-SCIROCCOT.jpg")
             
         }
         pinta(posicion: 0)
